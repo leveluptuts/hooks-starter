@@ -17,7 +17,7 @@ const App = () => {
 
   useEffect(() => {
     fetchDishes();
-  }, []);
+  }, [name]);
 
   return (
     <div className="main-wrapper" ref={ref}>
